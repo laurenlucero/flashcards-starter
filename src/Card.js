@@ -1,5 +1,4 @@
 // Card represents a single flashcard
-// import prototypeData from './data.js'
 
 class Card {
   constructor(id, question, answers, correctAnswer) {

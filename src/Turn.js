@@ -13,7 +13,7 @@ class Turn {
   }
   evaluateGuess() {
   // returns a boolean indicating if the user's guess matches the correct answer on the card
-  if (this.guess === this.card.answer) {
+  if (this.guess === this.card.correctAnswer) {
     return true;
   } else {
     return false;
@@ -21,7 +21,7 @@ class Turn {
   }
   giveFeedback() {
   // returns incorrect or correct based on guess
-  if (this.guess === this.card.answer) {
+  if (this.evaluateGuess()) {
     return 'Correct!';
   } else {
     return 'Incorrect!';

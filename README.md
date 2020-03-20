@@ -4,7 +4,7 @@
 In this project, I wrote a program to simulate a set of flash cards through the command line. The user can see the questions, take guesses, and see a final score at the end of the round. Through each iteration I used TDD to drive the implementation of my code.
 
 ## Working Application
-![game gif](https://giphy.com/gifs/dCF5U2aYMPbOtZCsZO/html5)
+![gamegif](https://media.giphy.com/media/dCF5U2aYMPbOtZCsZO/giphy.gif)
 
 ## Setup
 Clone down the forked repo (from your GitHub).

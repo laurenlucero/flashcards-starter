@@ -4,28 +4,28 @@ class Turn {
     this.card = card;
   }
   returnGuess() {
-  // returns the guess
-  return this.guess;
+    // returns the guess
+    return this.guess;
   }
   returnCard() {
-  // returns the Card
-  return this.card;
+    // returns the Card
+    return this.card;
   }
   evaluateGuess() {
-  // returns a boolean indicating if the user's guess matches the correct answer on the card
-  if (this.guess === this.card.correctAnswer) {
-    return true;
-  } else {
-    return false;
-  }
+    // returns a boolean indicating if the user's guess matches the correct answer on the card
+    if (this.guess === this.card.correctAnswer) {
+      return true;
+    } else {
+      return false;
+    }
   }
   giveFeedback() {
-  // returns incorrect or correct based on guess
-  if (this.evaluateGuess()) {
-    return 'Correct!';
-  } else {
-    return 'Incorrect!';
-  }
+    // returns incorrect or correct based on guess
+    if (this.evaluateGuess()) {
+      return "Correct!";
+    } else {
+      return "Incorrect!";
+    }
   }
 }
 

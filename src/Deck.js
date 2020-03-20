@@ -4,7 +4,7 @@ class Deck {
     this.cards = cards || [];
   }
   countCards() {
-  // Deck should know how many Cards are in the Deck
+    // Deck should know how many Cards are in the Deck
     return this.cards.length;
   }
 }

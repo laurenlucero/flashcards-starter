@@ -1,5 +1,3 @@
-// Card represents a single flashcard
-
 class Card {
   constructor(id, question, answers, correctAnswer) {
     this.id = id;
